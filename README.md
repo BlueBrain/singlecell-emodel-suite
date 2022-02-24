@@ -56,6 +56,8 @@ that is possibly used in the circuit.
 
 ## EModelRunner
 
+<img alt="EModelRunner Banner" src="https://github.com/BlueBrain/EModelRunner/raw/main/doc/source/logo/BBP-eModelRunner.jpg" width="600"/>
+
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/EModelRunner),
 [Documentation](https://github.com/BlueBrain/EModelRunner#readme).
