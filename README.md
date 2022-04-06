@@ -1,6 +1,6 @@
-# Singlecell e-model Suite
+# Single-Cell E-Model Suite
 
-A suite to handle single-cell electrophysical data and to build and validate detailed electrical models.
+A suite to handle single-cell electrophysiological data and to build and validate detailed electrical models.
 
 - [eFEL](#efel) — Electrophys Feature Extraction Library
 - [BluePyEfe](#bluepyefe) — Blue Brain Python E-feature extraction
