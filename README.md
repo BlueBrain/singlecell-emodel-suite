@@ -7,6 +7,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BluePyOpt](#bluepyopt) — Blue Brain Python Optimisation Library
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
+- [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 
 ## eFEL
 <img alt="eFEL Banner" src="https://github.com/BlueBrain/eFEL/raw/master/docs/source/logo/eFELBanner.png" width="600"/>
@@ -71,3 +72,15 @@ Useful links:
 **Runs cells from stand-alone packages**
 
 EModelRunner is a python library designed to run the cell models provided by the Blue Brain portals in a simple and straightforward way.
+
+## BlueNaaS-SingleCell
+
+<img alt="BlueNaaS-SingleCell" src="https://github.com/BlueBrain/BlueNaaS-SingleCell/raw/main/BlueNaaS-SingleCell.jpg" width="600" />
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/BlueNaaS-SingleCell),
+[Documentation](https://ebrains-cls-interactive.github.io/docs/online_usecases/single_cell_in_silico/single_cell_clamp/single_cell_clamp.html)
+
+**Interacts with single cell models through a web application**
+
+Blue-Neuroscience-as-a-Service-SingleCell is an open source web application. It enables users to quickly visualize single cell model morphologies in 3D or as a dendrogram. Using a simple web user interface, single cell simulations can be easily configured and launched, producing voltage traces from selected compartments.
