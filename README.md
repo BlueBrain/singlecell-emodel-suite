@@ -8,6 +8,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
+- [Currentscape](#currentscape) - Plot currents in electrical models
 
 ## eFEL
 <img alt="eFEL Banner" src="https://github.com/BlueBrain/eFEL/raw/master/docs/source/logo/eFELBanner.png" width="600"/>
@@ -84,3 +85,13 @@ Useful links:
 **Interacts with single cell models through a web application**
 
 Blue-Neuroscience-as-a-Service-SingleCell is an open source web application. It enables users to quickly visualize single cell model morphologies in 3D or as a dendrogram. Using a simple web user interface, single cell simulations can be easily configured and launched, producing voltage traces from selected compartments.
+
+## Currentscape
+
+Currentscape is a Python tool enabling scientists to easily plot the currents in electrical neuron models. The code is based on the paper Alonso and Marder, 2019. 
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/Currentscape),
+[Documentation](https://currentscape.readthedocs.io).
+
+<img alt="Currentscape example" src="https://raw.githubusercontent.com/BlueBrain/Currentscape/main/doc/source/images/plot.png" width="600"/>
