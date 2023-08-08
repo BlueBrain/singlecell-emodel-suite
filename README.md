@@ -6,6 +6,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BluePyEfe](#bluepyefe) — Blue Brain Python E-feature extraction
 - [BluePyOpt](#bluepyopt) — Blue Brain Python Optimisation Library
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
+- [BlueCelluLab](#bluecellulab) - Blue Brain Cellular Laboratory
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 - [Currentscape](#currentscape) - Plot currents in electrical models
@@ -61,6 +62,26 @@ Useful links:
 
 When building a network simulation, biophysically detailed electrical models (e-models) need to be tested for every morphology 
 that is possibly used in the circuit.
+
+## BlueCelluLab
+<a href="https://github.com/BlueBrain/BlueCelluLab">
+<img alt="BluePyCelluLab Banner" src="https://github.com/BlueBrain/BlueCelluLab/raw/main/docs/source/logo/BlueCelluLabBanner.jpg" width="600"/>
+</a>
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/BlueCelluLab),
+[Documentation](https://github.com/BlueBrain/BlueCelluLab#readme).
+
+**Blue Brain Cellular Laboratory**
+
+BlueCelluLab is designed for simulations and experiments on individual cells or groups of cells. Suitable use cases for BlueCelluLab include:
+* Scripting and statistical analysis for single cells or cell pairs.
+* Lightweight, detailed reporting on specific state variables after simulation.
+* Developing synaptic plasticity rules.
+* Validating dynamics of synaptic properties.
+* Automating in-silico whole-cell patching experiments.
+* Debugging, both scientifically and computationally.
+
 
 ## EModelRunner
 
