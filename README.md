@@ -12,7 +12,9 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [Currentscape](#currentscape) - Plot currents in electrical models
 
 ## eFEL
+<a href="https://github.com/BlueBrain/eFEL">
 <img alt="eFEL Banner" src="https://github.com/BlueBrain/eFEL/raw/master/docs/source/logo/eFELBanner.png" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/eFEL),
@@ -28,7 +30,9 @@ The library will then extract the requested features and return the values to th
 
 
 ## BluePyEfe
+<a href="https://github.com/BlueBrain/BluePyEfe">
 <img alt="BluePyEfe Banner" src="https://github.com/BlueBrain/BluePyEfe/raw/master/docs/source/logo/BluePyEfeBanner.jpg" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/BluePyEfe),
@@ -40,7 +44,9 @@ BluePyEfe aims at easing the process of reading experimental recordings and extr
 To do so, it combines trace reading functions and features extraction functions from the eFel library.
 
 ## BluePyOpt
+<a href="https://github.com/BlueBrain/BluePyOpt">
 <img alt="BluePyOpt Banner" src="https://github.com/BlueBrain/BluePyOpt/raw/master/docs/source/logo/BluePyOptBanner.png" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/BluePyOpt),
@@ -52,7 +58,9 @@ The Blue Brain Python Optimisation Library (BluePyOpt) is an extensible framewor
 and standardises several existing open-source tools.
 
 ## BluePyMM
+<a href="https://github.com/BlueBrain/BluePyMM">
 <img alt="BluePyMM Banner" src="https://github.com/BlueBrain/BluePyMM/raw/master/docs/source/logo/BluePyMMBanner.png" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/BluePyMM),
@@ -85,7 +93,9 @@ BlueCelluLab is designed for simulations and experiments on individual cells or 
 
 ## EModelRunner
 
+<a href="https://github.com/BlueBrain/EModelRunner">
 <img alt="EModelRunner Banner" src="https://github.com/BlueBrain/EModelRunner/raw/main/doc/source/logo/BBP-eModelRunner.jpg" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/EModelRunner),
@@ -97,7 +107,9 @@ EModelRunner is a python library designed to run the cell models provided by the
 
 ## BlueNaaS-SingleCell
 
+<a href="https://github.com/BlueBrain/BlueNaaS-SingleCell">
 <img alt="BlueNaaS-SingleCell" src="https://github.com/BlueBrain/BlueNaaS-SingleCell/raw/main/BlueNaaS-SingleCell.jpg" width="600" />
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/BlueNaaS-SingleCell),
@@ -115,4 +127,6 @@ Useful links:
 [GitHub repo](https://github.com/BlueBrain/Currentscape),
 [Documentation](https://currentscape.readthedocs.io).
 
+<a href="https://github.com/BlueBrain/Currentscape">
 <img alt="Currentscape example" src="https://raw.githubusercontent.com/BlueBrain/Currentscape/main/doc/source/images/plot.png" width="600"/>
+</a>
