@@ -7,6 +7,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BluePyOpt](#bluepyopt) — Blue Brain Python Optimisation Library
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
 - [BlueCelluLab](#bluecellulab) - Blue Brain Cellular Laboratory
+- [BluePyEModel](#bluepyemodel) - Blue Brain Python E-Model Building Library
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 - [Currentscape](#currentscape) - Plot currents in electrical models
@@ -22,10 +23,10 @@ Useful links:
 
 **Electrophys Feature Extraction Library**
 
-The Electrophys Feature Extraction Library (eFEL) allows neuroscientists to automatically extract features from 
-time series data recorded from neurons (both in vitro and in silico). Examples are the action potential width and amplitude 
-in voltage traces recorded during whole-cell patch clamp experiments. 
-The user of the library provides a set of traces and selects the features to be calculated. 
+The Electrophys Feature Extraction Library (eFEL) allows neuroscientists to automatically extract features from
+time series data recorded from neurons (both in vitro and in silico). Examples are the action potential width and amplitude
+in voltage traces recorded during whole-cell patch clamp experiments.
+The user of the library provides a set of traces and selects the features to be calculated.
 The library will then extract the requested features and return the values to the user.
 
 
@@ -40,7 +41,7 @@ Useful links:
 
 **Blue Brain Python E-feature extraction**
 
-BluePyEfe aims at easing the process of reading experimental recordings and extracting batches of electrical features from these recordings. 
+BluePyEfe aims at easing the process of reading experimental recordings and extracting batches of electrical features from these recordings.
 To do so, it combines trace reading functions and features extraction functions from the eFel library.
 
 ## BluePyOpt
@@ -54,7 +55,7 @@ Useful links:
 
 **Blue Brain Python Optimisation Library**
 
-The Blue Brain Python Optimisation Library (BluePyOpt) is an extensible framework for data-driven model parameter optimisation that wraps 
+The Blue Brain Python Optimisation Library (BluePyOpt) is an extensible framework for data-driven model parameter optimisation that wraps
 and standardises several existing open-source tools.
 
 ## BluePyMM
@@ -68,7 +69,7 @@ Useful links:
 
 **Blue Brain Python Cell Model Management**
 
-When building a network simulation, biophysically detailed electrical models (e-models) need to be tested for every morphology 
+When building a network simulation, biophysically detailed electrical models (e-models) need to be tested for every morphology
 that is possibly used in the circuit.
 
 ## BlueCelluLab
@@ -90,6 +91,16 @@ BlueCelluLab is designed for simulations and experiments on individual cells or 
 * Automating in-silico whole-cell patching experiments.
 * Debugging, both scientifically and computationally.
 
+## BluePyEModel
+<a href="https://github.com/BlueBrain/BluePyEModel">
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/BluePyEModel),
+[Documentation](https://github.com/BlueBrain/BluePyEModel#readme).
+
+**Blue Brain Python E-Model Building Library**
+
+The Blue Brain Python E-Model Building Library (BluePyEModel) is a Python package facilitating the configuration and execution of electrical neuron model (e-model) building tasks. It covers tasks such as extraction of electrical features from electrophysiology data, e-model parameters optimisation and model validation. As such, it builds on top of eFEL, BluePyEfe and BluePyOpt.
 
 ## EModelRunner
 
@@ -121,7 +132,7 @@ Blue-Neuroscience-as-a-Service-SingleCell is an open source web application. It 
 
 ## Currentscape
 
-Currentscape is a Python tool enabling scientists to easily plot the currents in electrical neuron models. The code is based on the paper Alonso and Marder, 2019. 
+Currentscape is a Python tool enabling scientists to easily plot the currents in electrical neuron models. The code is based on the paper Alonso and Marder, 2019.
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/Currentscape),
