@@ -93,6 +93,9 @@ BlueCelluLab is designed for simulations and experiments on individual cells or 
 
 ## BluePyEModel
 <a href="https://github.com/BlueBrain/BluePyEModel">
+<a href="https://github.com/BlueBrain/BluePyEModel">
+<img alt="BluePyEModel Banner" src="https://github.com/BlueBrain/BluePyEModel/raw/main/doc/source/logo/BluePyEModelBanner.jpg" width="600"/>
+</a>
 
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/BluePyEModel),
