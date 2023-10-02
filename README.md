@@ -7,7 +7,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BluePyOpt](#bluepyopt) — Blue Brain Python Optimisation Library
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
 - [BlueCelluLab](#bluecellulab) - Blue Brain Cellular Laboratory
-- [BluePyEModel](#bluepyemodel) - Blue Brain Python E-Model Building Library
+- [BluePyEModel](#bluepyemodel) - Blue Brain Python Electrical Modeling Pipeline
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 - [Currentscape](#currentscape) - Plot currents in electrical models
@@ -100,9 +100,9 @@ Useful links:
 [GitHub repo](https://github.com/BlueBrain/BluePyEModel),
 [Documentation](https://github.com/BlueBrain/BluePyEModel#readme).
 
-**Blue Brain Python E-Model Building Library**
+**Blue Brain Python Electrical Modeling Pipeline**
 
-The Blue Brain Python E-Model Building Library (BluePyEModel) is a Python package facilitating the configuration and execution of electrical neuron model (e-model) building tasks. It covers tasks such as extraction of electrical features from electrophysiology data, e-model parameters optimisation and model validation. As such, it builds on top of eFEL, BluePyEfe and BluePyOpt.
+The Blue Brain Python Electrical Modeling Pipeline (BluePyEModel) is a Python package facilitating the configuration and execution of electrical neuron model (e-model) building tasks. It covers tasks such as extraction of electrical features from electrophysiology data, e-model parameters optimisation and model validation. As such, it builds on top of eFEL, BluePyEfe and BluePyOpt.
 
 ## EModelRunner
 
