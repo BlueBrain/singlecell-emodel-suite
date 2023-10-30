@@ -145,5 +145,3 @@ Useful links:
 <a href="https://github.com/BlueBrain/Currentscape">
 <img alt="Currentscape example" src="https://raw.githubusercontent.com/BlueBrain/Currentscape/main/doc/source/images/plot.png" width="600"/>
 </a>
-
-## 
