@@ -145,3 +145,15 @@ Useful links:
 <a href="https://github.com/BlueBrain/Currentscape">
 <img alt="Currentscape example" src="https://raw.githubusercontent.com/BlueBrain/Currentscape/main/doc/source/images/plot.png" width="600"/>
 </a>
+
+## SSCxEModelExamples
+
+Software repository to reproduce the results of the publication below.
+
+> Reva, M., Rössert, C., Arnaudon, A., Damart, T., Mandge, D., Tuncel, A., Ramaswamy, 
+> S., Markram, H., & Van Geit, W. (2023). A universal workflow for creation, validation, and 
+> generalization of detailed neuronal models. Patterns, 100855. https://doi.org/10.1016/j.patter.2023.100855
+
+In the paper, we present a generalized automated workflow for the creation of robust electrical models and illustrate its performance by building cell models for the rat somatosensory cortex. Each model is based on a 3D morphological reconstruction and a set of ionic mechanisms. We use an evolutionary algorithm to optimize neuronal parameters to match the electrophysiological features extracted from experimental data. Then we validate the optimized models against additional stimuli and assess their generalizability on a population of similar morphologies. Compared to the state-of-the-art canonical models, our models show 5-fold improved generalizability. This versatile approach can be used to build robust models of any neuronal type.
+
+[GitHub repo](https://github.com/BlueBrain/SSCxEModelExamples)
