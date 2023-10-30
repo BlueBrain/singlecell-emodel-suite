@@ -11,6 +11,8 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [EModelRunner](#emodelrunner) — Runs cells from stand-alone packages
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 - [Currentscape](#currentscape) - Plot currents in electrical models
+- [SSCxEModelExamples](https://github.com/BlueBrain/SSCxEModelExamples) - Reproduce Reva, Maria, et al. "A universal workflow for creation, validation and generalization of detailed neuronal models" (2023).
+
 
 ## eFEL
 <a href="https://github.com/BlueBrain/eFEL">
@@ -143,3 +145,5 @@ Useful links:
 <a href="https://github.com/BlueBrain/Currentscape">
 <img alt="Currentscape example" src="https://raw.githubusercontent.com/BlueBrain/Currentscape/main/doc/source/images/plot.png" width="600"/>
 </a>
+
+## 
