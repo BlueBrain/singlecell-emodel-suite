@@ -3,7 +3,7 @@
 A suite to handle single-cell electrophysiological data and to build and validate detailed electrical models.
 
 - [eFEL](#efel) — Electrophys Feature (E-Feature) Extraction Library
-- [BluePyEfe](#bluepyefe) — E-Feature Extraction from batches of recordings
+- [BluePyEfe](#bluepyefe) — Blue Brain Python E-Feature Extraction from batches of recordings
 - [BluePyOpt](#bluepyopt) — Blue Brain Python Optimisation Library
 - [BluePyMM](#bluepymm) — Blue Brain Python Cell Model Management
 - [BlueCelluLab](#bluecellulab) - Blue Brain Cellular Laboratory
