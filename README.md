@@ -12,6 +12,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [BlueNaaS-SingleCell](#bluenaas-singlecell) - Interacts with single cell models through a web application
 - [Currentscape](#currentscape) - Plot currents in electrical models
 - [SSCxEModelExamples](#SSCxEModelExamples) - Reproduce Reva, Maria, et al. "A universal workflow for creation, validation and generalization of detailed neuronal models" (2023).
+- [e-model-packager](#e-model-packager) - Creates e-model packages from circuits
 
 
 ## eFEL
@@ -119,6 +120,7 @@ Useful links:
 **Runs cells from stand-alone packages**
 
 EModelRunner is a python library designed to run the cell models provided by the Blue Brain portals in a simple and straightforward way.
+The cell models that EModelRunner can run are created by [e-model-packager](https://github.com/BlueBrain/e-model-packager).
 
 ## BlueNaaS-SingleCell
 
@@ -157,3 +159,19 @@ Software repository to reproduce the results of the publication below.
 In the paper, we present a generalized automated workflow for the creation of robust electrical models and illustrate its performance by building cell models for the rat somatosensory cortex. Each model is based on a 3D morphological reconstruction and a set of ionic mechanisms. We use an evolutionary algorithm to optimize neuronal parameters to match the electrophysiological features extracted from experimental data. Then we validate the optimized models against additional stimuli and assess their generalizability on a population of similar morphologies. Compared to the state-of-the-art canonical models, our models show 5-fold improved generalizability. This versatile approach can be used to build robust models of any neuronal type.
 
 [GitHub repo](https://github.com/BlueBrain/SSCxEModelExamples)
+
+## e-model-packager
+
+Creates e-model packages from circuits.
+
+The implementation uses the Luigi Workflow Management System.
+
+Can generate packages for various e-models, including: SSCX, Glusynapse (Synaptic Plasticity) and Thalamus.
+
+This software is dependent on private data and private software. It has been released on GitHub "as is" for anyone wanting to see the code that has created Blue brain e-model packages such as the [synaptic plasticity ones](https://zenodo.org/records/6352774).
+
+The models created by e-model-packager can be run easily using [EModelRunner](https://github.com/BlueBrain/EModelRunner).
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/e-model-packager),
+[Documentation](https://e-model-packager.readthedocs.io/en/latest/).
