@@ -186,3 +186,6 @@ Generalisation and MCMC sampling of neuronal electrical models.
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/emodel-generalisation),
 [Documentation](https://emodel-generalisation.readthedocs.io/en/latest/).
+
+<img src="https://www.cell.com/cms/10.1016/j.isci.2023.108222/asset/c618fca1-af2b-451d-a0ab-7d7ce11b0380/main.assets/fx1_lrg.jpg" width="600"/>
+</a>
