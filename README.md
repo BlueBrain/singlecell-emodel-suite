@@ -13,6 +13,7 @@ A suite to handle single-cell electrophysiological data and to build and validat
 - [Currentscape](#currentscape) - Plot currents in electrical models
 - [SSCxEModelExamples](#SSCxEModelExamples) - Reproduce Reva, Maria, et al. "A universal workflow for creation, validation and generalization of detailed neuronal models" (2023).
 - [e-model-packager](#e-model-packager) - Creates e-model packages from circuits
+- [emodel-generalisation](#emodel-generalisation) - Generalisation and MCMC sampling of electrical models of neurons
 
 
 ## eFEL
@@ -152,8 +153,8 @@ Useful links:
 
 Software repository to reproduce the results of the publication below.
 
-> Reva, M., Rössert, C., Arnaudon, A., Damart, T., Mandge, D., Tuncel, A., Ramaswamy, 
-> S., Markram, H., & Van Geit, W. (2023). A universal workflow for creation, validation, and 
+> Reva, M., Rössert, C., Arnaudon, A., Damart, T., Mandge, D., Tuncel, A., Ramaswamy,
+> S., Markram, H., & Van Geit, W. (2023). A universal workflow for creation, validation, and
 > generalization of detailed neuronal models. Patterns, 100855. https://doi.org/10.1016/j.patter.2023.100855
 
 In the paper, we present a generalized automated workflow for the creation of robust electrical models and illustrate its performance by building cell models for the rat somatosensory cortex. Each model is based on a 3D morphological reconstruction and a set of ionic mechanisms. We use an evolutionary algorithm to optimize neuronal parameters to match the electrophysiological features extracted from experimental data. Then we validate the optimized models against additional stimuli and assess their generalizability on a population of similar morphologies. Compared to the state-of-the-art canonical models, our models show 5-fold improved generalizability. This versatile approach can be used to build robust models of any neuronal type.
@@ -175,3 +176,13 @@ The models created by e-model-packager can be run easily using [EModelRunner](ht
 Useful links:
 [GitHub repo](https://github.com/BlueBrain/e-model-packager),
 [Documentation](https://e-model-packager.readthedocs.io/en/latest/).
+
+## emodel-generalisation
+
+Generalisation and MCMC sampling of neuronal electrical models.
+
+[Arnaudon, A., Reva, M., Zbili, M., Markram, H., Van Geit, W., & Kanari, L. (2023). Controlling morpho-electrophysiological variability of neurons with detailed biophysical models. iScience, 2023.](https://www.cell.com/iscience/fulltext/S2589-0042%2823%2902299-X)
+
+Useful links:
+[GitHub repo](https://github.com/BlueBrain/emodel-generalisation),
+[Documentation](https://emodel-generalisation.readthedocs.io/en/latest/).
